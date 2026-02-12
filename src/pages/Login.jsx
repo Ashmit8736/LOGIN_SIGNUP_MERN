@@ -6,6 +6,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 
 const Login = () => {
+  const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({ email: '', password: '' });
   const [error, setError] = useState('');
   const navigate = useNavigate();
@@ -53,11 +54,19 @@ const Login = () => {
           </div>
           <div className="form-group">
             <label>Password</label>
+            <div className="password-wrapper">
             <input 
-              type="password" name="password" 
+              type={showPassword ? "text" : "password"} name="password" 
               onChange={handleChange} required 
               placeholder="••••••••"
             />
+            <span 
+                  className="show-btn"
+                  onClick={() => setShowPassword(!showPassword)}
+                >
+                  {showPassword ? "Hide" : "Show"}
+                </span>
+                </div>
           </div>
           <button type="submit" className="auth-btn">Login</button>
         </form>

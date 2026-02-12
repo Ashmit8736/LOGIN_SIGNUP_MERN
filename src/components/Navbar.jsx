@@ -15,6 +15,7 @@ const Navbar = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
     navigate("/login");
+    
   };
 
   useEffect(() => {

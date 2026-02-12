@@ -48,7 +48,7 @@ const Signup = () => {
         }
       );
 
-      toast.success("Signup Successful 🎉 Redirecting to Login...");
+      toast.success("Signup Successful 🎉 Redirecting to Login Page...");
 
       // Signup ke baad login page redirect
       setTimeout(() => {
