@@ -40,7 +40,7 @@
 .btn-add {
   margin-top: 10px;
   padding: 10px 14px;   /* Proper spacing */
-  background:#2563eb;
+  background:#1e56c7;
   color: white;
   border: none;
   border-radius: 6px;
@@ -54,7 +54,7 @@
 }
 
 .btn-add:hover {
-  background: #0008f8;
+  background: #4a00f8;
   transform: scale(1.05);
 }
 
@@ -98,19 +98,19 @@
 }
 
 .btn-delete {
-  background-color: #ff0c20; 
+  background-color: #ff9d00; 
   color: white;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 500;
   transition: background 0.3s ease;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .btn-delete:hover {
-  background-color: #fe0026;
+  background-color: hsl(0, 100%, 51%);
   transform: scale(1.05); 
 }
 
@@ -131,6 +131,7 @@
 }
    .btn-delete {
   font-size: 14px;
+  background-color: hsl(0, 100%, 51%);
 }
 
 .btn-delete:hover {

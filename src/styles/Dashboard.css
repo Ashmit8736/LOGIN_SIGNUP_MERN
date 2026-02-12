@@ -43,6 +43,11 @@
   .dashboard-container {
   padding: 10px;
 }
+.delete-btn{
+  background: hsl(0, 100%, 51%);
+  color: white;
+  border: none;
+}
 }
 
 .user-card {
@@ -64,12 +69,13 @@
 .delete-btn {
   margin-top: 15px;
   padding: 10px 14px;   /* Proper spacing */
-  background: #ef4444;
+  background:#ff9d00; 
   color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-
+  font-weight: 500;
+  font-size:14px;
   width: fit-content;   /* Sirf text jitna */
   align-self: flex-start; /* Left align inside flex column */
   font-weight: 500;
@@ -77,6 +83,6 @@
 }
 
 .delete-btn:hover {
-  background: #dc2626;
+  background: hsl(0, 100%, 51%);
   transform: scale(1.05);
 }

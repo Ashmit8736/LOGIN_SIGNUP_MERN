@@ -30,9 +30,9 @@
 }
 
 .logout {
-  margin-top: 15px;
+  margin-top: 0px;
   padding: 10px 14px;   /* Proper spacing */
-  background: #ef4444;
+  background:#ff9d00;
   color: white;
   border: none;
   border-radius: 6px;
@@ -45,7 +45,7 @@
 }
 
 .logout:hover {
-  background: #dc2626;
+  background: hsl(0, 100%, 51%); 
   transform: scale(1.05);
 }
 
@@ -120,12 +120,13 @@
   position: absolute;
   top: 50px;
   right: 0;
-  background: white;
-  color: black;
+  background: linear-gradient(90deg,rgb(14, 235, 172) 0%, rgb(12, 246, 0) 33%, rgb(0, 255, 208) 100%);
+  color: white;
   padding: 12px;
-  width: 180px;
+  width: 120px;
   border-radius: 8px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  font-weight: 600;
 }
 
 /* ================= MOBILE ================= */
